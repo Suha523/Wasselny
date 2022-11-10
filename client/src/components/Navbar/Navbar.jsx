@@ -10,7 +10,7 @@ export default function MyNav(args) {
 
   return (
     <div>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+      <nav className='navbar navbar-expand-lg navbar-light bg-light p-3'>
         <NavLink className='navbar-brand' href='#'>
           Navbar
         </NavLink>

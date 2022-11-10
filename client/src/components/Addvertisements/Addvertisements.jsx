@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Addvertise from "../Addvertise/Addvertise";
 
-function Addvertisements() {
+function Addvertisements(props) {
+  let addvertises = props.addvertises
   return (
-    <div>Addvertisements</div>
-  )
+    <div>
+        {addvertises.map((add, index) => <Addvertise key={index} addvertise={add} />)}
+    </div>
+  );
 }
 
-export default Addvertisements
+export default Addvertisements;

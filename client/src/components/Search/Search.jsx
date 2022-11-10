@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Form, FormGroup, Input } from "reactstrap";
 import Addvertisements from "../Addvertisements/Addvertisements";
 
-function Search() {
+function Search(props) {
   return (
     <div className=' w-100'>
       <div className='d-flex flex-column border rounded border-1 p-3 mb-5'>
@@ -16,7 +16,7 @@ function Search() {
         </Form>
       </div>
       <div className='border rounded border-1 p-3'>
-        <Addvertisements />
+        <Addvertisements addvertises={props.addvertises} />
       </div>
     </div>
   );

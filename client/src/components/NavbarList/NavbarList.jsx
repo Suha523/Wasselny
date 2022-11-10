@@ -11,7 +11,7 @@ function NavbarList() {
         </li>
         <li>
           <Link className='nav-link' to='/addAddvForm'>
-            add
+            Advertise transportation
           </Link>
         </li>
       </ul>
